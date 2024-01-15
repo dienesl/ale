@@ -35,6 +35,18 @@ g:ale_hack_hackfmt_options                         *g:ale_hack_hackfmt_options*
 
 
 ===============================================================================
+hh_client                                                  *ale-hack-hh_client*
+
+g:hack_hh_client_options                         *g:ale_hack_hh_client_options*
+                                                 *b:ale_hack_hh_client_options*
+  Type: |String|
+  Default: `''`
+
+  This variable can be set to pass additional options to the hh_client
+  formatter.
+
+
+===============================================================================
 hhast                                                          *ale-hack-hhast*
 
 g:ale_hack_hhast_executable                       *g:ale_hack_hhast_executable*

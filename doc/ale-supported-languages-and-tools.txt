@@ -233,6 +233,7 @@ Notes:
 * Hack
   * `hack`
   * `hackfmt`
+  * `hh_client` (formatter)
   * `hhast`
 * Haml
   * `haml-lint`
