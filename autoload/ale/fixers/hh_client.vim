@@ -6,7 +6,6 @@ call ale#Set('hack_hh_client_options', '')
 
 function! ale#fixers#hh_client#Fix(buffer) abort
     let l:hhconfig = ale_linters#hack#hack#GetProjectRoot(a:buffer)
-
     let l:executable = ale#Var(a:buffer, 'hack_hh_client_executable')
     let l:options = ale#Var(a:buffer, 'hack_hh_client_options')
 
