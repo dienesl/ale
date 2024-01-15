@@ -336,6 +336,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['text','markdown','asciidoc','tex'],
 \       'description': 'Fix text files with textlint --fix',
 \   },
+\   'hh_client': {
+\       'function': 'ale#fixers#hh_client#Fix',
+\       'suggested_filetypes': ['hack'],
+\       'description': 'Fix Hack files with hh_client.',
+\   },
 \   'hackfmt': {
 \       'function': 'ale#fixers#hackfmt#Fix',
 \       'suggested_filetypes': ['hack'],
